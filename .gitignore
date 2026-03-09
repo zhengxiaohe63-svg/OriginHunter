@@ -1,0 +1,39 @@
+Python cache
+
+pycache/ .py[cod] $py.class
+
+Virtual environments
+
+.env .venv venv/ env/ ENV/
+
+IDE files
+
+.vscode/ .idea/
+
+OS files
+
+.DS_Store Thumbs.db
+
+Logs
+
+*.log
+
+Generated reports / outputs
+
+report.json *.report.json reports/
+
+Python build artifacts
+
+build/ dist/ *.egg-info/
+
+Test artifacts
+
+.coverage .pytest_cache/
+
+Jupyter
+
+.ipynb_checkpoints/
+
+Temporary files
+
+.tmp .temp
