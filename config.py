@@ -32,3 +32,4 @@ def is_authorized_target_domain(domain: str, cfg: AppConfig | None = None) -> bo
     cfg = cfg or AppConfig()
     host = domain.strip().lower()
     return host in cfg.safe_exact_domains or any(host.endswith(sfx) for sfx in cfg.safe_domain_suffixes)
+
