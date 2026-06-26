@@ -153,7 +153,6 @@ def analyze_candidate(target_domain: str, candidate: dict, baseline: dict, timeo
 
     result["raw"]["candidate_tls_san"] = candidate_san
 
-    # 基础设施 / 负向证据
     provider = analyze_provider(
         candidate_ip,
         headers=result["raw"]["candidate_headers_subset"],
